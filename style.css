@@ -16,7 +16,8 @@
 
 body {
     /* background-color: #F3DA9A; */
-    background-color: #000;
+    background-image: url(pixelback.png);
+    /* background-color: #000; */
     color: #3DA896;
 }
 header h1{
@@ -79,7 +80,7 @@ nav {
 }
 .anchor-tags a{
     text-decoration: none;
-    color: #483026;
+    color: white;
 }
 
 /* From Uiverse.io by iZOXVL */ 
@@ -121,7 +122,7 @@ nav {
 
 .btn-31 {
   -webkit-tap-highlight-color: transparent;
-  -webkit-appearance: button;
+  appearance: button;
   background-color: #000;
   background-image: none;
   color: #fff;
@@ -133,7 +134,7 @@ nav {
   font-weight: 900;
   line-height: 1.5;
   margin: 0;
-  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  mask-image: -webkit-radial-gradient(#000, #fff);
   padding: 0;
 }
 
@@ -147,7 +148,7 @@ nav {
 
 .btn-31 svg {
   display: block;
-  vertical-align: middle;
+  /* vertical-align: middle; */
 }
 
 .btn-31 [hidden] {
